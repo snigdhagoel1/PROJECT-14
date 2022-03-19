@@ -62,11 +62,12 @@ function draw() {
      pinkBalloon()
     }
   }
-  
+ 
   drawSprites();
   score= 0;
-  textSize(20);
-  text("score:",+score,270,30)
+  
+  text("score:",+score,30,300)
+  
 }
 
 
